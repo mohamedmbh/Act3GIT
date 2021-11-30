@@ -3,11 +3,9 @@ package mainApp;
 public class MainApp {
 
 	private static int[] array = new int[20];
-	
+
 	public static void main(String[] args) {
 
-		
-		
 	}
 
 	public static void insertarNumeros() {
@@ -16,4 +14,10 @@ public class MainApp {
 			array[i] = n;
 		}
 	}
+
+	public static void verContenidoArray() {
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+	}	
 }
